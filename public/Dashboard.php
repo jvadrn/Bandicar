@@ -27,7 +27,7 @@ if (!isset($_SESSION['username'])) {
                 <a class="nav-link active text-light" aria-current="page" href="Dashboard.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="Peminjaman.php">Peminjaman</a>
+                <a class="nav-link active text-light" aria-current="page" href="TambahPeminjaman.php">Peminjaman</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active text-light" aria-current="page" href="Pengembalian.php">Pengembalian</a>
@@ -55,7 +55,7 @@ if (!isset($_SESSION['username'])) {
                     Wellcome To Bandi Car
                 </h1>
                 <h6>Menjadi pilihan utama untuk penyewaan mobil dengan pelayanan pelanggan yang unggul dan armada yang dapat diandalkan di seluruh Indonesia.</h6>
-                <a class="btn btn-lg btn-primary mt-5" href="Peminjaman.php" role="button">Mulai Sewa Mobil</a>
+                <a class="btn btn-lg btn-primary mt-5" href="TambahPeminjaman.php" role="button">Mulai Sewa Mobil</a>
             </div>
             <div class="col-md-6">
                 <img src="11452724.png" width="80%" alt="">
@@ -153,29 +153,29 @@ if (!isset($_SESSION['username'])) {
             <div class="col">
                 <div class="row">
                     <div class="col-sm-4">
-                      <div class="card shadow mb-3 " style="width: 22rem; height: 25rem;">
+                      <div class="card shadow mb-3 " style="width: 22rem; height: 24rem;">
                         <div class="card-body">
                           <h4 class="card-title">Penyewaan Mobil</h4>
                           <hr>
-                          <p class="card-text mb-3">Kami menyediakan berbagai pilihan kendaraan yang dapat disesuaikan dengan kebutuhan perjalanan Anda. Apakah Anda memerlukan mobil kecil untuk perjalanan singkat di kota atau mobil keluarga yang nyaman untuk perjalanan jauh, Bandi Car memiliki berbagai pilihan armada yang terawat dan siap pakai. Semua mobil kami tersedia dengan kondisi terbaik dan dilengkapi dengan fasilitas yang nyaman.</p>
+                          <p class="card-text ">Kami menyediakan berbagai pilihan kendaraan yang dapat disesuaikan dengan kebutuhan perjalanan Anda. Apakah Anda memerlukan mobil kecil untuk perjalanan singkat di kota atau mobil keluarga yang nyaman untuk perjalanan jauh, Bandi Car memiliki berbagai pilihan armada yang terawat dan siap pakai. Semua mobil kami tersedia dengan kondisi terbaik dan dilengkapi dengan fasilitas yang nyaman.</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <div class="card shadow mb-3"  style="width: 22rem; height: 25rem;">
+                      <div class="card shadow mb-3"  style="width: 22rem; height: 24rem;">
                         <div class="card-body">
                           <h4 class="card-title">Jasa Sopir</h4>
                           <hr>
-                          <p class="card-text mb-3">Nikmati kenyamanan lebih dengan menyewa mobil lengkap dengan sopir berpengalaman dari Bandi Car. Sopir kami tidak hanya berpengalaman dalam mengemudi, tetapi juga ramah dan tahu cara terbaik untuk mencapai tujuan Anda dengan aman dan nyaman. Kami memberikan opsi sopir untuk berbagai kebutuhan, mulai dari perjalanan bisnis, liburan, hingga acara khusus.</p>
+                          <p class="card-text ">Nikmati kenyamanan lebih dengan menyewa mobil lengkap dengan sopir berpengalaman dari Bandi Car. Sopir kami tidak hanya berpengalaman dalam mengemudi, tetapi juga ramah dan tahu cara terbaik untuk mencapai tujuan Anda dengan aman dan nyaman. Kami memberikan opsi sopir untuk berbagai kebutuhan, mulai dari perjalanan bisnis, liburan, hingga acara khusus.</p>
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-4">
-                        <div class="card shadow mb-3" style="width: 22rem; height: 25rem;">
+                        <div class="card shadow mb-3" style="width: 22rem; height: 24rem;">
                           <div class="card-body">
                             <h4 class="card-title">Pelaporan & Pengembalian</h4>
                             <hr>
-                            <p class="card-text mb-3">Kami menyediakan sistem pelaporan dan pengembalian yang mudah dan transparan, memastikan proses sewa mobil Anda berjalan lancar. Setelah selesai menggunakan kendaraan, Anda dapat melakukan pengembalian dengan mudah. Kami juga menyediakan laporan lengkap mengenai status kendaraan dan waktu sewa untuk memastikan bahwa semuanya tercatat dengan baik.</p>
+                            <p class="card-text ">Kami menyediakan sistem pelaporan dan pengembalian yang mudah dan transparan, memastikan proses sewa mobil Anda berjalan lancar. Setelah selesai menggunakan kendaraan, Anda dapat melakukan pengembalian dengan mudah. Kami juga menyediakan laporan lengkap mengenai status kendaraan dan waktu sewa untuk memastikan bahwa semuanya tercatat dengan baik.</p>
                           </div>
                         </div>
                       </div>
@@ -185,7 +185,7 @@ if (!isset($_SESSION['username'])) {
       </div>
       <div class="container mt-5">
       <div class="container" style="margin-bottom: 5rem;">
-			<div class="row justify-content-center mb-5">
+			<div class="row justify-content-center mb-">
 				<h1 class="text-center mb-3">Kontak Kami</h1>
 			</div>
 			<div class="row justify-content-center">

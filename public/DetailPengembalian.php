@@ -18,7 +18,7 @@
                 <a class="nav-link active text-light" aria-current="page" href="Dashboard.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="Peminjaman.php">Peminjaman</a>
+                <a class="nav-link active text-light" aria-current="page" href="TambahPeminjaman.php">Peminjaman</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active text-light" aria-current="page" href="Pengembalian.php">Pengembalian</a>
